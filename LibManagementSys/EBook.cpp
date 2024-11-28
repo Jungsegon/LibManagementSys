@@ -9,6 +9,6 @@ EBook::EBook(string t, string a, int y, string f, int n) : Book(t, a, y) {
 void EBook::printInfo() const { // 책정보를 출력, const는 멤버변수를 수정하지 않는 것을 의미.
     // title, author와 같은 멤버 변수의 값을 변경하려고 하면 컴파일 오류 발생
     // 멤버 변수들을 출력
-    cout << "E-Book: " << title << " by " << author << " (" << publicationYear
+    cout << "전자 책 : " << title << " by " << author << " (" << publicationYear
         << ") [" << fileType << "] " << numberOfPages << " pages." << endl;
 }

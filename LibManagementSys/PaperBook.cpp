@@ -7,6 +7,6 @@ PaperBook::PaperBook(string t, string a, int y, int n) : Book(t, a, y) {
 
 //const로 멤버 변수를 변경하지 않고, 책 정보를 출력
 void PaperBook::printInfo() const {
-    cout << "Paper Book: " << title << " by " << author << " (" << publicationYear
+    cout << "종이책 : " << title << " by " << author << " (" << publicationYear
         << ") " << numberOfPages << " pages." << endl;
 }
